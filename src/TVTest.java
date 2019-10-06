@@ -2,7 +2,7 @@ public class TVTest {
     public static void main(String[] args) {
 
         Televisor televisor = new Televisor();
-        televisor.showStatus();
+        System.out.println(televisor.tvStatus);
         televisor.turnOn();
         System.out.println(televisor.tvStatus);
         televisor.turnOff();
