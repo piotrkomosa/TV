@@ -1,14 +1,15 @@
 public class Televisor {
 
-    boolean TV_status;
+    boolean tvStatus;
 
-    boolean turnOff(boolean TV_status) {
-        return false;
+    void showStatus() {
+        tvStatus = false;
+        System.out.println(tvStatus);
     }
-    boolean turnOn(boolean TV_status) {
-        return true;
+   void turnOff() {
+       tvStatus = false;
     }
-    boolean showStatus(boolean turnOff, boolean turnOn) {
-        return TV_status;
+   void turnOn() {
+       tvStatus = true;
     }
 }
